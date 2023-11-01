@@ -91,8 +91,18 @@ section {
   height: 64px; /* Height of icons */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   cursor: pointer; /* Changes cursor to hand on hover */
+  position: relative;
+  z-index: 100
 }
 
+.active-icon-overlay {
+  position: relative;
+}
+
+.clicked-icon {
+  transform: scale(0.9); /* Scales down the icon to 90% of its original size */
+  transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
 
 .header-container {
   margin-left: 50px; /* Left margin of 100px */

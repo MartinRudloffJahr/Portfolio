@@ -190,26 +190,68 @@ const iconData = {
 
 };
 
-
 const n64Colors = ['#e60012', '#13a10e', '#0037da', '#fcd116']; // N64 palette colors
 
 document.addEventListener("DOMContentLoaded", function() {
   const navLinks = document.querySelectorAll('nav ul li a');
 
+  // Navigation link hover and focus events
   navLinks.forEach(link => {
-      // Add mouse and focus events for white color
-      link.addEventListener('mouseenter', () => link.style.color = '#FFFFFF');
-      link.addEventListener('focus', () => link.style.color = '#FFFFFF');
-
-      // Add mouse leave and blur events to revert to original color
-      link.addEventListener('mouseleave', () => link.style.color = '');
-      link.addEventListener('blur', () => link.style.color = '');
+    link.addEventListener('mouseenter', () => link.style.color = '#FFFFFF');
+    link.addEventListener('focus', () => link.style.color = '#FFFFFF');
+    link.addEventListener('mouseleave', () => link.style.color = '');
+    link.addEventListener('blur', () => link.style.color = '');
+    link.addEventListener('click', scrollToSection); // Scroll to section functionality
   });
-});
 
+  // Icon click functionality
+  const icons = document.querySelectorAll('.icon');
+  icons.forEach(icon => {
+    icon.addEventListener('click', function(event) {
+      icons.forEach(ic => {
+        ic.classList.remove('active-icon');
+        ic.classList.remove('clicked-icon'); // Remove both classes from all icons
+      });
+      this.classList.add('active-icon');
+      this.classList.add('clicked-icon'); // Add both classes to the clicked icon
+      openSlider(this.id);
+      event.stopPropagation();
+    });
+  });
 
+  // Slider close functionality
+  document.getElementById("close-slider").addEventListener("click", function() {
+    document.getElementById("slider").style.right = "-100%";
+    icons.forEach(ic => ic.classList.remove('clicked-icon')); // Remove clicked class when closing slider
+  });
 
-document.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener("click", function() {
+    document.getElementById("slider").style.right = "-100%";
+    icons.forEach(ic => ic.classList.remove('clicked-icon')); // Remove clicked class when closing slider
+  });
+
+  document.getElementById("slider").addEventListener("click", function(event) {
+    event.stopPropagation();
+  });
+
+  // Open slider function
+  function openSlider(iconId) {
+    const data = iconData[iconId];
+    if (data) {
+      document.getElementById('slider-title').innerText = data.title;
+      document.getElementById('slider-description').innerText = data.description;
+
+      for (let i = 1; i <= 4; i++) {
+        document.getElementById('img' + i).src = data.images[i - 1];
+      }
+
+      document.getElementById('slider').style.right = "0";
+    } else {
+      console.error("Icon data not found for id: " + iconId);
+    }
+  }
+
+  // Scroll to section function
   function scrollToSection(event) {
     event.preventDefault();
     var sectionId = this.getAttribute('href');
@@ -223,55 +265,4 @@ document.addEventListener('DOMContentLoaded', function() {
       behavior: 'smooth'
     });
   }
-
-  var navLinks = document.querySelectorAll('nav ul li a');
-  navLinks.forEach(function(link) {
-    link.addEventListener('click', scrollToSection);
-  });
-});
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  // Function to open the slider with content based on the clicked icon
-  function openSlider(iconId) {
-      const data = iconData[iconId];
-      if (data) {
-          document.getElementById('slider-title').innerText = data.title;
-          document.getElementById('slider-description').innerText = data.description;
-
-          for (let i = 1; i <= 4; i++) {
-              document.getElementById('img' + i).src = data.images[i - 1];
-          }
-
-          document.getElementById('slider').style.right = "0";
-      } else {
-          console.error("Icon data not found for id: " + iconId);
-      }
-  }
-
-  // Attaching click event listeners to each icon
-  document.querySelectorAll('.icon').forEach(icon => {
-      icon.addEventListener('click', function(event) {
-          openSlider(this.id);
-          event.stopPropagation();
-      });
-  });
-
-  // Close button functionality
-  document.getElementById("close-slider").addEventListener("click", function() {
-      document.getElementById("slider").style.right = "-100%";
-  });
-
-  // Close slider when clicking outside of it (on the window)
-  window.addEventListener("click", function() {
-      document.getElementById("slider").style.right = "-100%";
-  });
-
-  // Prevent the slider from closing when clicking inside it
-  document.getElementById("slider").addEventListener("click", function(event) {
-      event.stopPropagation();
-  });
 });
