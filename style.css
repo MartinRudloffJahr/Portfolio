@@ -3,14 +3,21 @@ body {
   background-color: #0d0d0d; /* Dark background */
   color: #f5f5f5; /* Light text */
   margin: 0;
-  padding: 0;
+  padding-top: 120px;
 }
 
 header {
   background-color: #202020; /* Slightly lighter black for header */
   color: #f5f5f5;
   padding: 10px 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900; /* Ensures the header stays above other content */
 }
+
 
 header h1, header nav {
   margin-left: 0px; /* Left margin of 100px */
@@ -45,6 +52,7 @@ section {
   border-bottom: 1px solid #333333;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -60,12 +68,19 @@ section {
   margin-left: 0px; /* Left margin of 100px */
 }
 
+.section-description {
+  max-width: 800px; /* Adjust to your preferred width */
+  margin-left: 0; /* Align to the left */
+  margin-right: auto; /* Maintain default right margin */
+}
+
 
 
 .icon {
   width: 64px; /* Width of icons */
   height: 64px; /* Height of icons */
   /* Removed the margin from here */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header-container {
@@ -89,6 +104,7 @@ section {
   overflow-x: hidden;
   transition: 0.5s;
   padding: 20px;
+  z-index: 1000;
 }
 
 /* Content within the slider */
@@ -112,6 +128,7 @@ section {
 .image-grid img {
   width: 25%; /* Adjust based on preference */
   margin: 0.5%; /* Space around each image */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -126,7 +143,6 @@ footer {
   color: #f5f5f5;
   text-align: center;
   padding: 10px 0;
-  position: fixed; /* or 'fixed' if you want it to stay at the bottom */
   bottom: 0;
   width: 100%;
 }
