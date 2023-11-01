@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault();
     var sectionId = this.getAttribute('href');
     var section = document.querySelector(sectionId);
-    var headerOffset = 100; // Height of your header
+    var headerOffset = 150; // Height of your header
     var sectionPosition = section.getBoundingClientRect().top + window.pageYOffset;
     var offsetPosition = sectionPosition - headerOffset;
 

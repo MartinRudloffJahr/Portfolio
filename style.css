@@ -3,7 +3,7 @@ body {
   background-color: #0d0d0d; /* Dark background */
   color: #f5f5f5; /* Light text */
   margin: 0;
-  padding-top: 120px;
+  padding-top: 150px;
 }
 
 header {
@@ -19,7 +19,14 @@ header {
 }
 
 
-header h1, header nav {
+header h1{
+  margin-left: 0px; /* Left margin of 100px */
+  text-align: left;
+  font-size: 3em;
+
+}
+
+header nav {
   margin-left: 0px; /* Left margin of 100px */
   text-align: left;
 
