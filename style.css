@@ -1,0 +1,94 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0d0d0d; /* Dark background */
+  color: #f5f5f5; /* Light text */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #202020; /* Slightly lighter black for header */
+  color: #f5f5f5;
+  padding: 10px 0;
+}
+
+header h1, header nav {
+  margin-left: 0px; /* Left margin of 100px */
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+nav ul li a:hover, nav ul li a:focus {
+  color: #e60012; /* Bright red for hover/focus state */
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* 10px gap between icons */
+  justify-content: flex-start; /* Aligns icons to the start of the container */
+  max-width: 1000px; /* Maximum width for 5 icons per row */
+  margin-left: 25px; /* Left margin of 100px */
+}
+
+
+
+.icon {
+  width: 64px; /* Width of icons */
+  height: 64px; /* Height of icons */
+  /* Removed the margin from here */
+}
+
+.header-container {
+  margin-left: 50px; /* Left margin of 100px */
+}
+
+
+.grid-item {
+  /* Add specific styles for items in your grid if needed */
+}
+
+
+footer {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Example of how to use Nintendo 64 inspired colors */
+.n64-red { color: #e60012; }
+.n64-green { color: #13a10e; }
+.n64-blue { color: #0037da; }
+.n64-yellow { color: #fcd116; }
