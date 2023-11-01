@@ -15,6 +15,7 @@ header {
 header h1, header nav {
   margin-left: 0px; /* Left margin of 100px */
   text-align: left;
+
 }
 
 nav ul {
@@ -56,7 +57,7 @@ section {
   gap: 10px; /* 10px gap between icons */
   justify-content: flex-start; /* Aligns icons to the start of the container */
   max-width: 1000px; /* Maximum width for 5 icons per row */
-  margin-left: 25px; /* Left margin of 100px */
+  margin-left: 0px; /* Left margin of 100px */
 }
 
 
@@ -76,16 +77,61 @@ section {
   /* Add specific styles for items in your grid if needed */
 }
 
+/* Slider styles */
+.slider {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Start off screen */
+  width: 700px; /* Adjust as needed */
+  height: 100%;
+  background-color: #202020;
+  color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 20px;
+}
+
+/* Content within the slider */
+.slider-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-content h2, .slider-content p {
+  margin-bottom: 20px;
+}
+
+/* Image grid styles */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust this as needed */
+  margin-bottom: 50px; /* Space between images and description */
+}
+
+.image-grid img {
+  width: 25%; /* Adjust based on preference */
+  margin: 0.5%; /* Space around each image */
+
+}
+
+/* Show slider */
+.show-slider {
+  right: 0;
+}
+
 
 footer {
   background-color: #1a1a1a;
   color: #f5f5f5;
   text-align: center;
   padding: 10px 0;
-  position: relative;
+  position: fixed; /* or 'fixed' if you want it to stay at the bottom */
   bottom: 0;
   width: 100%;
 }
+
+
 
 /* Example of how to use Nintendo 64 inspired colors */
 .n64-red { color: #e60012; }
