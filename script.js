@@ -194,24 +194,18 @@ const iconData = {
 const n64Colors = ['#e60012', '#13a10e', '#0037da', '#fcd116']; // N64 palette colors
 
 document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelectorAll('nav ul li a');
+  const navLinks = document.querySelectorAll('nav ul li a');
 
-    navLinks.forEach(link => {
-        link.addEventListener('mouseenter', changeLinkColor);
-        link.addEventListener('focus', changeLinkColor);
-        link.addEventListener('mouseleave', revertLinkColor);
-        link.addEventListener('blur', revertLinkColor);
-    });
+  navLinks.forEach(link => {
+      // Add mouse and focus events for white color
+      link.addEventListener('mouseenter', () => link.style.color = '#FFFFFF');
+      link.addEventListener('focus', () => link.style.color = '#FFFFFF');
+
+      // Add mouse leave and blur events to revert to original color
+      link.addEventListener('mouseleave', () => link.style.color = '');
+      link.addEventListener('blur', () => link.style.color = '');
+  });
 });
-
-function changeLinkColor() {
-    const randomColor = n64Colors[Math.floor(Math.random() * n64Colors.length)];
-    this.style.color = randomColor;
-}
-
-function revertLinkColor() {
-    this.style.color = '#FFFFFF'; // Reverting to white
-}
 
 
 

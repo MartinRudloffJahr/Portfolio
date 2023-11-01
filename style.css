@@ -2,7 +2,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #0d0d0d; /* Dark background */
   color: #f5f5f5; /* Light text */
-  margin: 0;
+  margin: 20px;
   padding-top: 150px;
 }
 
@@ -18,18 +18,15 @@ header {
   z-index: 900; /* Ensures the header stays above other content */
 }
 
-
 header h1{
   margin-left: 0px; /* Left margin of 100px */
   text-align: left;
   font-size: 3em;
-
 }
 
 header nav {
   margin-left: 0px; /* Left margin of 100px */
   text-align: left;
-
 }
 
 nav ul {
@@ -43,16 +40,20 @@ nav ul li {
   margin-right: 0;
 }
 
+.n64-red { color: #e60012; }
+.n64-green { color: #13a10e; }
+.n64-blue { color: #0037da; }
+.n64-yellow { color: #fcd116; }
+
 nav ul li a {
-  color: #f5f5f5;
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration: none; /* Removes underlines */
+  color: inherit; /* Ensures color inherits from the class */
 }
 
-
-nav ul li a:hover, nav ul li a:focus {
-  color: #e60012; /* Bright red for hover/focus state */
+nav ul li a:hover {
+  color: white; /* White color for hover state */
 }
+
 
 section {
   padding: 20px;
