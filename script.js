@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function() {
     event.preventDefault();
     var sectionId = this.getAttribute('href');
     var section = document.querySelector(sectionId);
-    var headerOffset = 150;
+    var headerOffset = 140;
     var sectionPosition = section.getBoundingClientRect().top + window.pageYOffset;
     var offsetPosition = sectionPosition - headerOffset;
 
