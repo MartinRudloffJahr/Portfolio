@@ -5,7 +5,7 @@ const iconData = {
     title: "Title for Icon 1",
     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     images: [
-        'images/button1.png',
+        'images/content/me1.png',
         'images/button1.png',
         'images/button1.png',
     ]
@@ -194,6 +194,9 @@ const n64Colors = ['#e60012', '#13a10e', '#0037da', '#fcd116']; // N64 palette c
 
 document.addEventListener("DOMContentLoaded", function() {
   const navLinks = document.querySelectorAll('nav ul li a');
+  const icons = document.querySelectorAll('.icon');
+  const slider = document.getElementById("slider");
+  const imageOverlay = document.getElementById("image-overlay");
 
   // Navigation link hover and focus events
   navLinks.forEach(link => {
@@ -205,36 +208,44 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Icon click functionality
-  const icons = document.querySelectorAll('.icon');
   icons.forEach(icon => {
     icon.addEventListener('click', function(event) {
-      icons.forEach(ic => {
-        ic.classList.remove('active-icon');
-        ic.classList.remove('clicked-icon'); // Remove both classes from all icons
-      });
-      this.classList.add('active-icon');
-      this.classList.add('clicked-icon'); // Add both classes to the clicked icon
+      icons.forEach(ic => ic.classList.remove('active-icon', 'clicked-icon')); // Remove both classes from all icons
+      this.classList.add('active-icon', 'clicked-icon'); // Add both classes to the clicked icon
       openSlider(this.id);
       event.stopPropagation();
     });
   });
 
   // Slider close functionality
-  document.getElementById("close-slider").addEventListener("click", function() {
-    document.getElementById("slider").style.right = "-100%";
-    icons.forEach(ic => ic.classList.remove('clicked-icon')); // Remove clicked class when closing slider
+  document.getElementById("close-slider").addEventListener("click", closeSlider);
+
+  // Overlay functionality
+  const gridImages = document.querySelectorAll('.image-grid img');
+  gridImages.forEach(img => {
+    img.addEventListener('click', function() {
+      openOverlay(this.src);
+    });
   });
 
-  window.addEventListener("click", function() {
-    document.getElementById("slider").style.right = "-100%";
-    icons.forEach(ic => ic.classList.remove('clicked-icon')); // Remove clicked class when closing slider
+  imageOverlay.addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeOverlay();
+      openSliderFromOverlay();
+    }
   });
 
-  document.getElementById("slider").addEventListener("click", function(event) {
+  // Prevent closing slider on click inside
+  slider.addEventListener("click", function(event) {
     event.stopPropagation();
   });
 
-  // Open slider function
+  // Prevent closing overlay on click inside
+  document.getElementById("overlay-image").addEventListener('click', function(e) {
+    e.stopPropagation();
+  });
+
+  // Functions
   function openSlider(iconId) {
     const data = iconData[iconId];
     if (data) {
@@ -245,18 +256,36 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('img' + i).src = data.images[i - 1];
       }
 
-      document.getElementById('slider').style.right = "0";
+      slider.classList.add('show-slider');
     } else {
       console.error("Icon data not found for id: " + iconId);
     }
   }
 
-  // Scroll to section function
+  function closeSlider() {
+    slider.classList.remove('show-slider');
+    icons.forEach(ic => ic.classList.remove('clicked-icon')); // Remove clicked class when closing slider
+  }
+
+  function openOverlay(imgSrc) {
+    document.getElementById("overlay-image").src = imgSrc;
+    imageOverlay.style.display = 'flex';
+  }
+
+  function closeOverlay() {
+    imageOverlay.style.display = 'none';
+  }
+
+  function openSliderFromOverlay() {
+    const activeIconId = document.querySelector('.clicked-icon').id;
+    openSlider(activeIconId);
+  }
+
   function scrollToSection(event) {
     event.preventDefault();
     var sectionId = this.getAttribute('href');
     var section = document.querySelector(sectionId);
-    var headerOffset = 150; // Height of your header
+    var headerOffset = 150;
     var sectionPosition = section.getBoundingClientRect().top + window.pageYOffset;
     var offsetPosition = sectionPosition - headerOffset;
 
@@ -265,4 +294,10 @@ document.addEventListener("DOMContentLoaded", function() {
       behavior: 'smooth'
     });
   }
+
+  window.addEventListener("click", function() {
+    if (!slider.contains(event.target) && !imageOverlay.contains(event.target)) {
+      closeSlider();
+    }
+  });
 });
