@@ -3,7 +3,7 @@ body {
   background-color: #0d0d0d;
   color: #f5f5f5;
   margin: 20px 0px 0px 0; /* Reduced left margin */
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
   display: flex;
   justify-content: flex-start; /* Align logo to left */
   margin-bottom: 5px; /* Spacing between logo and nav */
-  margin-top: 20px; /* Spacing between logo and nav */
+  margin-top: 40px; /* Spacing between logo and nav */
 }
 
 #header-logo {

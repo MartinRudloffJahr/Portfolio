@@ -31,7 +31,7 @@ const iconData = {
     ]
   },
   "icon4": {
-    title: "Title for Icon 4",
+    title: "",
     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
 
     images: [
@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function() {
     event.preventDefault();
     var sectionId = this.getAttribute('href');
     var section = document.querySelector(sectionId);
-    var headerOffset = 140;
+    var headerOffset = 160;
     var sectionPosition = section.getBoundingClientRect().top + window.pageYOffset;
     var offsetPosition = sectionPosition - headerOffset;
 
