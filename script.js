@@ -3,26 +3,26 @@ const iconData = {
   // Example:
   "icon1": {
     title: "About me",
-    description: "*lovely description about me, work in progress",
+    description: "Born in 1994 in Santiago, Chile, I grew up as a single child, but making friends has always been my second nature, specially trough games and activities, from inviting my friends to play Nintendo 64 after school, playing trading card games on recces or going into online games to keep in touch at home, my interest has always been to had fun with other people and experience what life has to offer, both online and irl, best of both worlds you could say.   ",
     images: [
-        'images/content/me1.png',
+        'images/content/me4.png',
         'images/content/me2.png',
-        'images/content/me3.png',
+        'images/content/me5.png',
     ]
 },
     "icon2": {
     title: "Moving to Berlin",
-    description: "short story of how i ended up here and what ive done",
+    description: "For what seemed a long time, me and my mom did the paperwork to become german citizens, project on I was the first one to jump ship and move to Berlin obviously, , the experience so far has been lovely, I've made really good friends, got into awesome partys, visited many cool places and built my community and a place i can call home. I've taken it easy and making the best out of it, I've studied german, data science and walked dogs as a side job and a hobby.",
     images: [
-        'images/button2.png',
-        'images/button2.png',
-        'images/button2.png',
+        'images/content/me6.png',
+        'images/content/me1.png',
+        'images/content/me7.png',
     ]
 },
 
   "icon3": {
     title: "Looking for",
-    description: "short story for what im looking forward at this moment in life",
+    description: "With my good deeds done making educational videogames after college to get experience in this field, what I truly am is a social gamer and designer. My favourite games are MMORPGS and almost every other online games so I can only dream of myself working on one, from the social aspects to the personal fullfillment these games are all about, I very well know what moves me, and bringing those experiences both from life and other games into my work feels just right",
 
     images: [
         'images/button3.png',
@@ -31,8 +31,8 @@ const iconData = {
     ]
   },
   "icon4": {
-    title: "",
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    title: "Working with me",
+    description: "With whats been said already you may suspect im not shy at work, I love getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and I quickly adapt to different challenges and projects, In my opinion you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
 
     images: [
         'images/button4.png',
@@ -42,8 +42,8 @@ const iconData = {
     ]
   },
   "icon5": {
-    title: "Title for Icon 5",
-    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    title: "RAQN",
+    description: "Right after graduating college I asked the coolest teacher if I could work with him and I worked on RAQN as Game Designer for the next 3 years, we were an amazing team of 10 doing educational videogames, working with children, teachers and so many other people who were looking to do games for a cause and from the heart, We learnt a lot together and I managed and designed several projects from concept to launch, many of those present in this protfolio, I considerably reduced my responsabilties when moving to Berlin and we cooperate every so often and keep in touch.",
 
     images: [
         'images/button1.png',
@@ -52,7 +52,7 @@ const iconData = {
     ]
   },
   "icon6": {
-    title: "Title for Icon 6",
+    title: "Forest",
     description: "Description for Icon 6",
     images: [
         'images/button1.png',
