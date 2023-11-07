@@ -22,17 +22,17 @@ const iconData = {
 
   "icon3": {
     title: "Looking for",
-    description: "With my good deeds done making educational videogames after college to get experience in this field, what I truly am is a social gamer and designer. My favourite games are MMORPGS and almost every other online games so I can only dream of myself working on one, from the social aspects to the personal fullfillment these games are all about, I very well know what moves me, and bringing those experiences both from life and other games into my work feels just right",
+    description: "With my good deeds done making educational videogames after college to get experience in this field, what I truly am is a social gamer and designer. My favourite games are MMORPGS and almost every other online games so I can only dream of myself working on one, from the social aspects to the personal fullfillment these games are all about, I very well know what moves me, and bringing those experiences both from life and other games into my work feels just right.",
 
     images: [
-        'images/button3.png',
+        'images/content/me8.png',
         'images/button3.png',
         'images/button3.png',
     ]
   },
   "icon4": {
     title: "Working with me",
-    description: "With whats been said already you may suspect im not shy at work, I love getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and I quickly adapt to different challenges and projects, In my opinion you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
+    description: "With whats been said already you may suspect im not shy at work, I try getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and I quickly adapt to different challenges and projects, In my opinion you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
 
     images: [
         'images/button4.png',
@@ -43,7 +43,7 @@ const iconData = {
   },
   "icon5": {
     title: "RAQN",
-    description: "Right after graduating college I asked the coolest teacher if I could work with him and I worked on RAQN as Game Designer for the next 3 years, we were an amazing team of 10 doing educational videogames, working with children, teachers and so many other people who were looking to do games for a cause and from the heart, We learnt a lot together and I managed and designed several projects from concept to launch, many of those present in this protfolio, I considerably reduced my responsabilties when moving to Berlin and we cooperate every so often and keep in touch.",
+    description: "Right after graduating college I asked the coolest teacher if I could work with him and I worked on RAQN as Game Designer for the next 3 years, we were an amazing team of 10 doing educational videogames, working with children, teachers and so many other people who were looking to do games for a cause and from the heart, We learnt a lot together and I managed and designed several projects from concept to launch, many of those present in this protfolio, I considerably reduced my responsabilties when moving to Berlin and we cooperate every so often but always keep in touch.",
 
     images: [
         'images/button1.png',
@@ -53,7 +53,7 @@ const iconData = {
   },
   "icon6": {
     title: "Forest",
-    description: "Description for Icon 6",
+    description: "Forest its a “Netflix” like app for educational videogames, we provided support for online classes with games and other tools. Backed by a teaching process and an analysis of the learning progress. For this project I worked on App Design, App Wireframe, Mockup, Marketing, Translation, Features and improvements.",
     images: [
         'images/button1.png',
         'images/button2.png',
