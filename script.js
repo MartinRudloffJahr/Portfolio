@@ -35,9 +35,9 @@ const iconData = {
     description: "With whats been said already you may suspect im not shy at work, I try getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and quickly adapt to different challenges and projects, you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
 
     images: [
-        'images/button4.png',
-        'images/button4.png',
-        'images/button4.png',
+        'images/content/me9.jpeg',
+        'images/content/me10.jpeg',
+        'images/content/me11.jpeg',
 
     ]
   },
@@ -56,13 +56,13 @@ const iconData = {
     description: "Forest its a “Netflix” like app for educational videogames, we provided support for online classes with games and other tools. Backed by a teaching process and an analysis of the learning progress. For this project I worked on App Design, App Wireframe, Mockup, Marketing, Translation, Features and improvements.",
     images: [
         'images/content/forest1.png',
-        'images/button2.png',
+        'images/content/forest2.png',
         'images/button3.png',
     ]
   },
   "icon7": {
     title: "Mars Explorer",
-    description: "Mars Explorer Description",
+    description: "For a space exploration exposition in a museum we developed a set of three mini games on Rovers, Space Colonies and Spacecraft. In coordination with a science department we developed entertaining and accuarate engaging museum experiences. For this project I worked on: Iteration, Research, Concept, Game Design, GDD, Level Design and Production.",
     images: [
         'images/content/mars1.png',
         'images/button2.png',
@@ -71,7 +71,7 @@ const iconData = {
   },
   "icon8": {
     title: "Museum App - Chilean Museum of Humans Rights and Memory",
-    description: "Museum AppDescription",
+    description: "Conectados its an application made for the Chilean museum of memory and human rights. It guides visitors to navigate the museum, acces online media, register their visit and share content. For this project I worked on: Research, Iteration, App Design, Wireframes and Production.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -97,8 +97,8 @@ const iconData = {
     ]
   },
   "icon11": {
-    title: "Title for Icon 11",
-    description: "Description for Icon 11",
+    title: "Mision Esodia",
+    description: "isión Esodia is a video game developed for the NGO Odisea, a Zelda like with puzzels made specially with the aim of supporting its proprietary method of Project-Based Learning. For this project I worked on: Iteration, Research, Concept, Game Design, GDD, Level design, Production, Testing and Marketing.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -106,8 +106,8 @@ const iconData = {
     ]
   },
   "icon12": {
-    title: "Title for Icon 12",
-    description: "Description for Icon 12",
+    title: "Alai",
+    description: "Project developed for the Mutual of Security and the Chilean Chamber of Construction, ALAI is a platform that seeks to motivate the leaders of construction companies to collaborate in the prevention of fatal accidents. For this project I worked on: Research, Iteration, App Design, Game Design, GDD, Wireframes and Production",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -115,8 +115,8 @@ const iconData = {
     ]
   },
   "icon13": {
-    title: "Title for Icon 13",
-    description: "Description for Icon 13",
+    title: "Skill1 ",
+    description: "Skill1 Description",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -149,38 +149,88 @@ const iconData = {
         'images/button3.png',
     ]
   },  "icon17": {
-    title: "Title for Icon 17",
-    description: "Description for Icon 17",
+    title: "Albion Online",
+    description: "Albion Description",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },  "icon18": {
-    title: "Title for Icon 18",
-    description: "Description for Icon 18",
+    title: "World of Warcraft",
+    description: "Description World of Warcraft",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },  "icon19": {
-    title: "Title for Icon 19",
-    description: "Description for Icon 19",
+    title: "World of Warcraft: Classic",
+    description: "Description World of Warcraft: Classic",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },  "icon20": {
-    title: "Title for Icon 20",
-    description: "Description for Icon 20",
+    title: "WoW Ascension",
+    description: "Description for WoW Ascension",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon21": {
+    title: "Food Dojo",
+    description: "Food Dojo is a puzzle and visual memory game, developed to reinforce the learning of vocabulary in the English language of basic general education. For this project I worked on: Level Design, Production, Marketing, Graphic Design and Testing.",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon22": {
+    title: "Ragnarok Online",
+    description: "Description for Ragnarok Online",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon23": {
+    title: "Brujulab",
+    description: "Brujulab develops high-impact vocational counseling for 3rd and 4th grade students which adds value to the desicion and practical exercises, based on Positive Psychology and Integrative Coaching. For this project I worked on: Game Design, Learning method adaptation, Production.",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon24": {
+    title: "WoW Ascension",
+    description: "Description for WoW Ascension",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon25": {
+    title: "WoW Ascension",
+    description: "Description for WoW Ascension",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon26": {
+    title: "WoW Ascension",
+    description: "Description for WoW Ascension",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },
+
+
 
 
 
