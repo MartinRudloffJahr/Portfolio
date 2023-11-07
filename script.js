@@ -148,17 +148,17 @@ const iconData = {
         'images/button2.png',
         'images/button3.png',
     ]
-  },  "icon17": {
+  },  "icon18": {
     title: "Albion Online",
-    description: "Albion Description",
+    description: "I just admire Albion design on so many levels, I awould be thrilled to work with them. Knowing about the game just a couple weeks before release and convicing all my friends to try it, I've been in and out but always up to go online and get into some trouble. Keeping in touch with the community and every update, Albion has a very special place in my heart",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
-  },  "icon18": {
+  },  "icon17": {
     title: "World of Warcraft",
-    description: "Description World of Warcraft",
+    description: "If you wonder why I often wear a cap, World of Warcraft has been a huge part of my gaming life, and since my interests go into game design, I've kept on with what have been some of the best and worst design decisions of this amazing but at times chaotic colossus of a game.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -205,30 +205,66 @@ const iconData = {
         'images/button3.png',
     ]
   },  "icon24": {
-    title: "WoW Ascension",
-    description: "Description for WoW Ascension",
+    title: "Habbo Hotel",
+    description: "Description for Habbo Hotel",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },  "icon25": {
-    title: "WoW Ascension",
-    description: "Description for WoW Ascension",
+    title: "Rogue Likes",
+    description: "Description for Rogue likes",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },  "icon26": {
-    title: "WoW Ascension",
-    description: "Description for WoW Ascension",
+    title: "League of Legends",
+    description: "League of Legends",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },  "icon27": {
+    title: "Team Fight Tactics",
+    description: "TFT",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },
+  "icon28": {
+    title: "TCG",
+    description: "Description for TCG",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },
+  "icon29": {
+    title: "Building Games",
+    description: "Minecraft, Satisfactory, Sims",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },
+  "icon30": {
+    title: "Nintendo 64",
+    description: "N64",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },
+
 
 
 
