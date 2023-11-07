@@ -26,13 +26,13 @@ header {
   width: 100%; /* Full width */
   display: flex;
   justify-content: flex-start; /* Align logo to left */
-  margin-bottom: 5px; /* Spacing between logo and nav */
+  margin-bottom: 20px; /* Spacing between logo and nav */
   margin-top: 40px; /* Spacing between logo and nav */
 }
 
 #header-logo {
   width: auto;
-  height: 80px;
+  height: 60px;
 }
 
 /* Navigation Styles */
@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 section {
-  padding: 20px;
+  padding: 60px;
   border-bottom: 1px solid #333333;
 }
 
