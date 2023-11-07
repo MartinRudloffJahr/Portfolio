@@ -32,7 +32,7 @@ const iconData = {
   },
   "icon4": {
     title: "Working with me",
-    description: "With whats been said already you may suspect im not shy at work, I try getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and I quickly adapt to different challenges and projects, In my opinion you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
+    description: "With whats been said already you may suspect im not shy at work, I try getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and quickly adapt to different challenges and projects, you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
 
     images: [
         'images/button4.png',
@@ -55,18 +55,17 @@ const iconData = {
     title: "Forest",
     description: "Forest its a “Netflix” like app for educational videogames, we provided support for online classes with games and other tools. Backed by a teaching process and an analysis of the learning progress. For this project I worked on App Design, App Wireframe, Mockup, Marketing, Translation, Features and improvements.",
     images: [
-        'images/button1.png',
+        'images/content/forest1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },
   "icon7": {
-    title: "Title for Icon 7",
+    title: "Mars Explorer",
     description: "Description for Icon 7",
     images: [
-        'images/button1.png',
+        'images/content/mars1.png',
         'images/button2.png',
-        'images/button3.png',
     ]
   },
   "icon8": {

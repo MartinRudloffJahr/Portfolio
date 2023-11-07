@@ -161,11 +161,14 @@ section {
 }
 
 .image-grid img {
-  width: 30%; /* Adjust based on preference */
+  width: 30%; /* Set a fixed width for the square */
   margin: 0.5%; /* Space around each image */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+  object-fit: cover; /* Cover the area without changing the aspect ratio */
+  object-position: center; /* Center the image within the element */
+  display: block; /* To prevent default image inline spacing */
 }
+
 
 /* Show slider */
 .show-slider {
