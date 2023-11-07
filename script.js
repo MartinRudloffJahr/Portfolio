@@ -25,9 +25,9 @@ const iconData = {
     description: "With my good deeds done making educational videogames after college to get experience in this field, what I truly am is a social gamer and designer. My favourite games are MMORPGS and almost every other online games so I can only dream of myself working on one, from the social aspects to the personal fullfillment these games are all about, I very well know what moves me, and bringing those experiences both from life and other games into my work feels just right.",
 
     images: [
+        'images/content/albion2.jpg',
         'images/content/me8.png',
-        'images/button3.png',
-        'images/button3.png',
+        'images/content/wow1.jpg',
     ]
   },
   "icon4": {
@@ -62,15 +62,16 @@ const iconData = {
   },
   "icon7": {
     title: "Mars Explorer",
-    description: "Description for Icon 7",
+    description: "Mars Explorer Description",
     images: [
         'images/content/mars1.png',
         'images/button2.png',
+        'images/button3.png',
     ]
   },
   "icon8": {
-    title: "Title for Icon 8",
-    description: "Description for Icon 8",
+    title: "Museum App - Chilean Museum of Humans Rights and Memory",
+    description: "Museum AppDescription",
     images: [
         'images/button1.png',
         'images/button2.png',
