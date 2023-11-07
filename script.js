@@ -3,7 +3,7 @@ const iconData = {
   // Example:
   "icon1": {
     title: "About me",
-    description: "Born in 1994 in Santiago, Chile, I grew up as a single child, but making friends has always been my second nature, specially trough games and activities, from inviting my friends to play Nintendo 64 after school, playing trading card games on recces or going into online games to keep in touch at home, my interest has always been to had fun with other people and experience what life has to offer, both online and irl, best of both worlds you could say.   ",
+    description: "Born in 1994 in Santiago, Chile, I grew up as a single child, but making friends has always been my second nature, specially trough games and activities, from inviting my friends to play Nintendo 64 after school, playing trading card games on recces or going into online games to keep in touch at home, my interest has always been to had fun with other people and experience what life has to offer, both online and irl,    ",
     images: [
         'images/content/me4.png',
         'images/content/me2.png',
@@ -37,7 +37,7 @@ const iconData = {
     images: [
         'images/content/me9.jpeg',
         'images/content/me10.jpeg',
-        'images/content/me11.jpeg',
+        'images/content/me3.png',
 
     ]
   },
@@ -79,8 +79,8 @@ const iconData = {
     ]
   },
   "icon9": {
-    title: "Title for Icon 9",
-    description: "Description for Icon 9",
+    title: "Data Science & AI - Le Wagon",
+    description: " ",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -88,8 +88,8 @@ const iconData = {
     ]
   },
   "icon10": {
-    title: "Title for Icon 10",
-    description: "Description for Icon 10",
+    title: "Video Game Design - University Andres Bello",
+    description: " ",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -115,8 +115,8 @@ const iconData = {
     ]
   },
   "icon13": {
-    title: "Skill1 ",
-    description: "Skill1 Description",
+    title: "Web Dev (html,js,css)",
+    description: "Honorable mention to this page, who has been my most recent project after some of the skills I learnt at the bootcamp, its my humble attempt at web design, working with html, java script and ccs all from scratch",
     images: [
         'images/button1.png',
         'images/button2.png',
