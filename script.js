@@ -284,6 +284,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const icons = document.querySelectorAll('.icon');
   const slider = document.getElementById("slider");
   const imageOverlay = document.getElementById("image-overlay");
+    const firstIcon = document.getElementById('icon1');
+  if (firstIcon) {
+    firstIcon.classList.add('active-icon', 'clicked-icon');
+    openSlider('icon1');}
 
   // Navigation link hover and focus events
   navLinks.forEach(link => {
