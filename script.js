@@ -142,8 +142,8 @@ const iconData = {
         'images/button3.png',
     ]
   },  "icon16": {
-    title: "In project management, I bring a structured and efficient approach to overseeing game development projects. My skills include meticulous planning, setting clear milestones, and ensuring timely delivery within budget constraints. I excel in coordinating diverse teams, fostering an environment where creativity and productivity thrive. With a keen eye for detail, I adeptly manage resources and anticipate project needs, ensuring smooth progression from concept to completion. My ability to communicate effectively with all stakeholders, coupled with a strong problem-solving mindset, makes me adept at steering projects through complex challenges to successful outcomes.",
-    description: "",
+    title: "Project Managment",
+    description: "In project management, I bring a structured and efficient approach to overseeing game development projects. My skills include meticulous planning, setting clear milestones, and ensuring timely delivery within budget constraints. I excel in coordinating diverse teams, fostering an environment where creativity and productivity thrive. With a keen eye for detail, I adeptly manage resources and anticipate project needs, ensuring smooth progression from concept to completion. My ability to communicate effectively with all stakeholders, coupled with a strong problem-solving mindset, makes me adept at steering projects through complex challenges to successful outcomes.",
     images: [
         'images/button1.png',
         'images/button2.png',
