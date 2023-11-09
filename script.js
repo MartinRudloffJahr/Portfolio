@@ -151,11 +151,11 @@ const iconData = {
     ]
   },  "icon18": {
     title: "Albion Online",
-    description: "I hold a profound admiration for Albion Online's design, which resonates with me on numerous levels. The prospect of working with the Albion team fills me with immense excitement. I vividly remember learning about the game just weeks before its release and enthusiastically convincing my friends to join me in this new adventure. Since then, my engagement with Albion has been a constant ebb and flow, but I'm always ready to dive back in and immerse myself in the thrills it offers. Staying connected with the community and keeping abreast of every update, Albion Online holds a very special place in my heart. This portfolio, in essence, is a testament to my passion for Albion and my eagerness to contribute to its continued success and evolution.",
+    description: "I'm a huge fan of Albion Online's design – it's really resonated with me. Dreaming of joining the Albion team is something that fires me up. I got into the game just before its release, and even managed to bring my friends along for the ride. My journey with Albion has been a mix of highs and lows, yet, whether my friends are playing or not, I find myself always drawn back to its world.In my time with Albion, I’ve made it a point to immerse myself in every aspect of the game. Beyond my favorite activity, the Avalonian roads, and also other times the mists, while hopping between Discord channels for friends to play with, I’ve dived into every other game system. From engaging in PvE, faction combat, Island upkeep, to attempting crafting, my experience is comprehensive. I've even jumped into the Public Test Realm (PTR) to check out and understand the new features they’re working on, always with an eye for design.This portfolio captures my ambition to be a part of Sandbox Interactive. My affection for Albion Online extends beyond casual play; it encompasses a deep appreciation of its design and community. Having invested myself fully, experimenting with each facet of the game, I aim to bring a well-rounded perspective of passion, knowledge, and hands-on experience to the team in a meaningful and genuine way..",
     images: [
-        'images/button1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/content/albion_stats.png',
+        'images/content/albion_stats3.png',
+        'images/content/albion_stats2.png',
     ]
   },  "icon17": {
     title: "World of Warcraft",
