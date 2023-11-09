@@ -200,7 +200,7 @@ const iconData = {
     title: "Brujulab",
     description: "Brujulab develops high-impact vocational counseling for 3rd and 4th grade students which adds value to the desicion and practical exercises, based on Positive Psychology and Integrative Coaching. For this project I worked on: Game Design, Learning method adaptation, Production.",
     images: [
-        'images/button1.png',
+        'images/content/blab.png',
         'images/button2.png',
         'images/button3.png',
     ]
