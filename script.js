@@ -134,8 +134,8 @@ const iconData = {
     ]
   },
   "icon15": {
-    title: "In game development, while I'm not a developer, I have a foundational understanding that's crucial for effective design. This knowledge allows me to appreciate the technical aspects of game creation, ensuring that my designs are feasible and align well with the development capabilities. I'm familiar enough with the processes and limitations to facilitate smooth collaboration with development teams, ensuring that the design and development phases complement each other effectively. My approach involves designing with a practical perspective, always considering how the elements of design translate into actual game development.",
-    description: " ",
+    title: "Game Development",
+    description: "In game development, while I'm not a developer, I have a foundational understanding that's crucial for effective design. This knowledge allows me to appreciate the technical aspects of game creation, ensuring that my designs are feasible and align well with the development capabilities. I'm familiar enough with the processes and limitations to facilitate smooth collaboration with development teams, ensuring that the design and development phases complement each other effectively. My approach involves designing with a practical perspective, always considering how the elements of design translate into actual game development. ",
     images: [
         'images/button1.png',
         'images/button2.png',
