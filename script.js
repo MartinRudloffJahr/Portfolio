@@ -202,8 +202,8 @@ const iconData = {
     description: "At Brujulab, we developed high-impact vocational counseling tools targeted at 3rd and 4th grade students, enhancing their decision-making process and practical exercises. This project, grounded in Positive Psychology and Integrative Coaching, was designed to add significant value to the students' educational journey. My role involved Game Design, adapting learning methods to an interactive format, and overseeing the Production process.",
     images: [
         'images/content/blab.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/.png',
+        'images/.png',
     ]
   },  "icon24": {
     title: "Habbo Hotel",
