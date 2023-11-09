@@ -46,9 +46,9 @@ const iconData = {
     description: "Right after graduating college I asked the coolest teacher if I could work with him and I worked on RAQN as Game Designer for the next 3 years, we were an amazing team of 10 doing educational videogames, working with children, teachers and so many other people who were looking to do games for a cause and from the heart, We learnt a lot together and I managed and designed several projects from concept to launch, many of those present in this protfolio, I considerably reduced my responsabilties when moving to Berlin and we cooperate every so often but always keep in touch.",
 
     images: [
-        'images/button1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/marsexplo.png',
+        'images/forest.png',
+        'images/museo.png',
     ]
   },
   "icon6": {
@@ -57,7 +57,7 @@ const iconData = {
     images: [
         'images/content/forest1.png',
         'images/content/forest2.png',
-        'images/button3.png',
+        'images/content/forest3.png',
     ]
   },
   "icon7": {
@@ -65,17 +65,17 @@ const iconData = {
     description: "For a space exploration exposition in a museum we developed a set of three mini games on Rovers, Space Colonies and Spacecraft. In coordination with a science department we developed entertaining and accuarate engaging museum experiences. For this project I worked on: Iteration, Research, Concept, Game Design, GDD, Level Design and Production.",
     images: [
         'images/content/mars1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/content/mars2.png',
+        'images/content/mars3.png',
     ]
   },
   "icon8": {
     title: "Museum App - Chilean Museum of Humans Rights and Memory",
     description: "Conectados its an application made for the Chilean museum of memory and human rights. It guides visitors to navigate the museum, acces online media, register their visit and share content. For this project I worked on: Research, Iteration, App Design, Wireframes and Production.",
     images: [
-        'images/button1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/content/museo1.png',
+        'images/content/museo2.png',
+        'images/content/museo3.png',
     ]
   },
   "icon9": {
@@ -100,18 +100,18 @@ const iconData = {
     title: "Mision Esodia",
     description: "isión Esodia is a video game developed for the NGO Odisea, a Zelda like with puzzels made specially with the aim of supporting its proprietary method of Project-Based Learning. For this project I worked on: Iteration, Research, Concept, Game Design, GDD, Level design, Production, Testing and Marketing.",
     images: [
-        'images/button1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/content/od1.png',
+        'images/content/od2.png',
+        'images/content/od3.png',
     ]
   },
   "icon12": {
     title: "Alai",
     description: "Project developed for the Mutual of Security and the Chilean Chamber of Construction, ALAI is a platform that seeks to motivate the leaders of construction companies to collaborate in the prevention of fatal accidents. For this project I worked on: Research, Iteration, App Design, Game Design, GDD, Wireframes and Production",
     images: [
-        'images/button1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/content/alai1.png',
+        'images/content/alai3.png',
+        'images/content/alai2.png',
     ]
   },
   "icon13": {
@@ -124,8 +124,8 @@ const iconData = {
     ]
   },
   "icon14": {
-    title: "Title for Icon 14",
-    description: "Description for Icon 14",
+    title: "Game Design",
+    description: "Research, Brainstorming, GDD Writing",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -133,16 +133,16 @@ const iconData = {
     ]
   },
   "icon15": {
-    title: "Title for Icon 15",
-    description: "Description for Icon 15",
+    title: "Game Development",
+    description: " ",
     images: [
         'images/button1.png',
         'images/button2.png',
         'images/button3.png',
     ]
   },  "icon16": {
-    title: "Title for Icon 16",
-    description: "Description for Icon 16",
+    title: "Project Managment",
+    description: "",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -184,9 +184,9 @@ const iconData = {
     title: "Food Dojo",
     description: "Food Dojo is a puzzle and visual memory game, developed to reinforce the learning of vocabulary in the English language of basic general education. For this project I worked on: Level Design, Production, Marketing, Graphic Design and Testing.",
     images: [
-        'images/button1.png',
-        'images/button2.png',
-        'images/button3.png',
+        'images/content/fd1.png',
+        'images/content/fd2.png',
+        'images/content/fd3.png',
     ]
   },  "icon22": {
     title: "Ragnarok Online",
@@ -221,7 +221,7 @@ const iconData = {
         'images/button3.png',
     ]
   },  "icon26": {
-    title: "League of Legends",
+    title: "MOBAs",
     description: "League of Legends",
     images: [
         'images/button1.png',
@@ -229,8 +229,8 @@ const iconData = {
         'images/button3.png',
     ]
   },  "icon27": {
-    title: "Team Fight Tactics",
-    description: "TFT",
+    title: "Auto Battlers",
+    description: "TFT, Dota Auto Chess,",
     images: [
         'images/button1.png',
         'images/button2.png',
