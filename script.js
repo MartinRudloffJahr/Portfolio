@@ -99,7 +99,7 @@ const iconData = {
   },
   "icon11": {
     title: "Mision Esodia",
-    description: "isión Esodia is a video game developed for the NGO Odisea, a Zelda like with puzzels made specially with the aim of supporting its proprietary method of Project-Based Learning. For this project I worked on: Iteration, Research, Concept, Game Design, GDD, Level design, Production, Testing and Marketing.",
+    description: "Misión Esodia, developed for NGO Odisea, is a Zelda-like video game with puzzles, tailored to support Project-Based Learning. My roles were diverse, including Research, Concept development, Game Design, creating the Game Design Document (GDD), Level Design, overseeing Production, Testing, and Marketing. This project reflects my capability to merge educational objectives with immersive gameplay.",
     images: [
         'images/content/od1.png',
         'images/content/od2.png',
@@ -108,7 +108,7 @@ const iconData = {
   },
   "icon12": {
     title: "Alai",
-    description: "Project developed for the Mutual of Security and the Chilean Chamber of Construction, ALAI is a platform that seeks to motivate the leaders of construction companies to collaborate in the prevention of fatal accidents. For this project I worked on: Research, Iteration, App Design, Game Design, GDD, Wireframes and Production",
+    description: "For the Mutual of Security and the Chilean Chamber of Construction, I developed a project titled ALAI. This platform is dedicated to motivating leaders of construction companies to actively participate in preventing fatal accidents. My role in this project was comprehensive, encompassing various stages of development. I conducted thorough Research to understand the industry's needs, engaged in Iterative design to refine the platform, and handled App Design to ensure user-friendly navigation. Additionally, my responsibilities included Game Design, creating a compelling and engaging interactive element, drafting the Game Design Document (GDD), designing Wireframes for a structured layout, and overseeing the entire Production process to bring ALAI to fruition. This project represents a fusion of technology and safety advocacy, aiming to make a significant impact in the construction sector.",
     images: [
         'images/content/alai1.png',
         'images/content/alai3.png',
@@ -117,7 +117,7 @@ const iconData = {
   },
   "icon13": {
     title: "Web Dev (html,js,css)",
-    description: "Honorable mention to this page, who has been my most recent project after some of the skills I learnt at the bootcamp, its my humble attempt at web design, working with html, java script and ccs all from scratch",
+    description: "An honorable mention goes to this page, representing my most recent project, which showcases some of the skills I acquired during the bootcamp. This venture into web design is my humble foray into creating something from the ground up, utilizing HTML, JavaScript, and CSS. It stands as a reflection of my dedication to continual learning and my enthusiasm for embracing new challenges in the ever-evolving tech landscape.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -151,7 +151,7 @@ const iconData = {
     ]
   },  "icon18": {
     title: "Albion Online",
-    description: "I just admire Albion design on so many levels, I awould be thrilled to work with them. Knowing about the game just a couple weeks before release and convicing all my friends to try it, I've been in and out but always up to go online and get into some trouble. Keeping in touch with the community and every update, Albion has a very special place in my heart",
+    description: "I hold a profound admiration for Albion Online's design, which resonates with me on numerous levels. The prospect of working with the Albion team fills me with immense excitement. I vividly remember learning about the game just weeks before its release and enthusiastically convincing my friends to join me in this new adventure. Since then, my engagement with Albion has been a constant ebb and flow, but I'm always ready to dive back in and immerse myself in the thrills it offers. Staying connected with the community and keeping abreast of every update, Albion Online holds a very special place in my heart. This portfolio, in essence, is a testament to my passion for Albion and my eagerness to contribute to its continued success and evolution.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -183,7 +183,7 @@ const iconData = {
     ]
   },  "icon21": {
     title: "Food Dojo",
-    description: "Food Dojo is a puzzle and visual memory game, developed to reinforce the learning of vocabulary in the English language of basic general education. For this project I worked on: Level Design, Production, Marketing, Graphic Design and Testing.",
+    description: "Food Dojo is an engaging puzzle and visual memory game, crafted to bolster the learning of English language vocabulary for basic general education students. In this project, my contributions spanned several key areas including Level Design, Production, Marketing, Graphic Design, and Testing. My focus was on creating an immersive and educational experience that effectively aids in language acquisition through interactive gameplay.",
     images: [
         'images/content/fd1.png',
         'images/content/fd2.png',
@@ -199,7 +199,7 @@ const iconData = {
     ]
   },  "icon23": {
     title: "Brujulab",
-    description: "Brujulab develops high-impact vocational counseling for 3rd and 4th grade students which adds value to the desicion and practical exercises, based on Positive Psychology and Integrative Coaching. For this project I worked on: Game Design, Learning method adaptation, Production.",
+    description: "At Brujulab, we developed high-impact vocational counseling tools targeted at 3rd and 4th grade students, enhancing their decision-making process and practical exercises. This project, grounded in Positive Psychology and Integrative Coaching, was designed to add significant value to the students' educational journey. My role involved Game Design, adapting learning methods to an interactive format, and overseeing the Production process.",
     images: [
         'images/content/blab.png',
         'images/button2.png',

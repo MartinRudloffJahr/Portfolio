@@ -86,8 +86,9 @@ section {
   flex-wrap: wrap;
   gap: 10px; /* 10px gap between icons */
   justify-content: flex-start; /* Aligns icons to the start of the container */
-  max-width: 1000px; /* Maximum width for 5 icons per row */
+  max-width: 800px; /* Maximum width for 5 icons per row */
   margin-left: 0px; /* Left margin of 100px */
+  margin-top: 50px; /* Left margin of 100px */
 }
 
 .section-description {
