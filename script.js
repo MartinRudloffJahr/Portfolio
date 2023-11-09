@@ -3,7 +3,7 @@ const iconData = {
   // Example:
   "icon1": {
     title: "About me",
-    description: "Born in 1994 in Santiago, Chile, I grew up as a single child, but making friends has always been my second nature, specially trough games and activities, from inviting my friends to play Nintendo 64 after school, playing trading card games on recces or going into online games to keep in touch at home, my interest has always been to had fun with other people and experience what life has to offer, both online and irl,    ",
+    description: "Born in 1994 in Santiago, Chile, I was an only child who found companionship and joy in gaming. From after-school Nintendo 64 sessions to online gaming, these experiences sparked my passion for video game design. Balancing this passion with academic pursuits, I also thrived in social settings, effortlessly blending my love for digital worlds with engaging, real-world interactions. This blend of professional focus and personal enthusiasm has defined my approach, always maintaining a balance between responsibility and the spirited enjoyment of life's diverse experiences.",
     images: [
         'images/content/me4.png',
         'images/content/me2.png',
@@ -12,7 +12,7 @@ const iconData = {
 },
     "icon2": {
     title: "Moving to Berlin",
-    description: "For what seemed a long time, me and my mom did the paperwork to become german citizens, project on I was the first one to jump ship and move to Berlin obviously, , the experience so far has been lovely, I've made really good friends, got into awesome partys, visited many cool places and built my community and a place i can call home. I've taken it easy and making the best out of it, I've studied german, data science and walked dogs as a side job and a hobby.",
+    description: "My mom and I underwent a lengthy process to become German citizens, and I was the first to relocate to Berlin. The experience has been wonderful so far. I've made great friends, enjoyed amazing parties, explored numerous interesting places, and established a community and a home for myself. Embracing a relaxed approach, I've delved into studying German and data science, and even taken up dog walking as a side job and hobby.",
     images: [
         'images/content/me6.png',
         'images/content/me1.png',
@@ -22,7 +22,8 @@ const iconData = {
 
   "icon3": {
     title: "Looking for",
-    description: "With my good deeds done making educational videogames after college to get experience in this field, what I truly am is a social gamer and designer. My favourite games are MMORPGS and almost every other online games so I can only dream of myself working on one, from the social aspects to the personal fullfillment these games are all about, I very well know what moves me, and bringing those experiences both from life and other games into my work feels just right.",
+    description:"Embarking on my career, I found myself immersed in the world of educational video games, an experience that honed my skills but also kindled a yearning for something grander. My true calling lies in the vast, intricate universe of MMORPGs – a genre that resonates with my very essence. I crave a vibrant, dynamic environment where I can not only apply but also expand my expertise, growing alongside a genre that has always captivated me. My journey in educational gaming was just the beginning; I am eager to dive into the larger, exhilarating realm of MMORPGs, where I can truly thrive and contribute to something that feels not just like a job, but a part of who I am." ,
+
 
     images: [
         'images/content/albion2.jpg',
@@ -32,7 +33,7 @@ const iconData = {
   },
   "icon4": {
     title: "Working with me",
-    description: "With whats been said already you may suspect im not shy at work, I try getting around with everyone, I like checking on what they are working on and hearing their ideas, I work best with a team and quickly adapt to different challenges and projects, you cannot make fun games by being boring. Always down for team building activities, best with a beer.",
+    description: "Given my background, it's no surprise that I'm outgoing in the workplace. I make it a point to connect with everyone, showing genuine interest in their projects and ideas. Thriving in a team environment, I adapt swiftly to varying challenges and projects, firmly believing that creating fun games requires an engaging, dynamic approach. I'm always enthusiastic about team-building activities, especially if they involve a good beer",
 
     images: [
         'images/content/me9.jpeg',
@@ -43,7 +44,7 @@ const iconData = {
   },
   "icon5": {
     title: "RAQN",
-    description: "Right after graduating college I asked the coolest teacher if I could work with him and I worked on RAQN as Game Designer for the next 3 years, we were an amazing team of 10 doing educational videogames, working with children, teachers and so many other people who were looking to do games for a cause and from the heart, We learnt a lot together and I managed and designed several projects from concept to launch, many of those present in this protfolio, I considerably reduced my responsabilties when moving to Berlin and we cooperate every so often but always keep in touch.",
+    description: "Immediately after college, I seized the opportunity to work with my coolest professor on RAQN as a Game Designer. For the next three years, I was part of an incredible team of 10, crafting educational video games. Our collaborative efforts involved working with children, teachers, and others passionate about creating games with a purpose and heart. During this time, I learned immensely, managing and designing several projects from concept to launch, many of which are showcased in this portfolio. My move to Berlin led to a reduction in my responsibilities, but we still collaborate occasionally and maintain regular contact.",
 
     images: [
         'images/marsexplo.png',
@@ -53,7 +54,7 @@ const iconData = {
   },
   "icon6": {
     title: "Forest",
-    description: "Forest its a “Netflix” like app for educational videogames, we provided support for online classes with games and other tools. Backed by a teaching process and an analysis of the learning progress. For this project I worked on App Design, App Wireframe, Mockup, Marketing, Translation, Features and improvements.",
+    description: "Forest is an educational platform akin to Netflix but for educational video games, designed to augment online classes with games and various tools. Supported by a structured teaching process and an analytical approach to tracking learning progress, I contributed extensively to this project. My roles encompassed App Design, Wireframing, creating Mockups, handling Marketing aspects, Translation, as well as developing Features and improvements.",
     images: [
         'images/content/forest1.png',
         'images/content/forest2.png',
@@ -62,7 +63,7 @@ const iconData = {
   },
   "icon7": {
     title: "Mars Explorer",
-    description: "For a space exploration exposition in a museum we developed a set of three mini games on Rovers, Space Colonies and Spacecraft. In coordination with a science department we developed entertaining and accuarate engaging museum experiences. For this project I worked on: Iteration, Research, Concept, Game Design, GDD, Level Design and Production.",
+    description: "For a space exploration exhibit in a museum, we developed a trio of mini-games focused on Rovers, Space Colonies, and Spacecraft. In collaboration with a science department, we crafted entertaining and accurate experiences to engage museum visitors. My contributions to this project included Iteration, Research, Concept Development, Game Design, creating Game Design Documents (GDD), Level Design, and overseeing Production.",
     images: [
         'images/content/mars1.png',
         'images/content/mars2.png',
@@ -71,7 +72,7 @@ const iconData = {
   },
   "icon8": {
     title: "Museum App - Chilean Museum of Humans Rights and Memory",
-    description: "Conectados its an application made for the Chilean museum of memory and human rights. It guides visitors to navigate the museum, acces online media, register their visit and share content. For this project I worked on: Research, Iteration, App Design, Wireframes and Production.",
+    description: "Conectados is an application created for the Chilean Museum of Memory and Human Rights. It assists visitors in navigating the museum, accessing online media, registering their visit, and sharing content. My involvement in this project covered Research, Iteration, App Design, creating Wireframes, and managing Production.",
     images: [
         'images/content/museo1.png',
         'images/content/museo2.png',
