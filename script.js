@@ -265,6 +265,25 @@ const iconData = {
         'images/button3.png',
     ]
   },
+  "icon31": {
+    title: "Every other MMORPG",
+    description: "Graveyard",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },
+  "icon32": {
+    title: "Adobe Creative Suit",
+    description: "PS, AI, Premiere, XD",
+    images: [
+        'images/button1.png',
+        'images/button2.png',
+        'images/button3.png',
+    ]
+  },
+
 
 
 
