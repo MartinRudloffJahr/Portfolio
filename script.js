@@ -126,7 +126,7 @@ const iconData = {
   },
   "icon14": {
     title: "Game Design",
-    description: "Research, Brainstorming, GDD Writing",
+    description: "In the realm of game design, my skills are multifaceted, encompassing thorough research abilities that enable me to gather and analyze pertinent information, ensuring that game concepts are both innovative and relevant. I excel in brainstorming sessions, known for generating creative and original ideas that contribute significantly to team discussions. Additionally, I possess a strong aptitude for GDD (Game Design Document) writing, articulating detailed outlines of game mechanics, storylines, and user experiences. My expertise extends across various dimensions of game design, reflecting a comprehensive and well-rounded skill set in this domain.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -134,7 +134,7 @@ const iconData = {
     ]
   },
   "icon15": {
-    title: "Game Development",
+    title: "In game development, while I'm not a developer, I have a foundational understanding that's crucial for effective design. This knowledge allows me to appreciate the technical aspects of game creation, ensuring that my designs are feasible and align well with the development capabilities. I'm familiar enough with the processes and limitations to facilitate smooth collaboration with development teams, ensuring that the design and development phases complement each other effectively. My approach involves designing with a practical perspective, always considering how the elements of design translate into actual game development.",
     description: " ",
     images: [
         'images/button1.png',
@@ -142,7 +142,7 @@ const iconData = {
         'images/button3.png',
     ]
   },  "icon16": {
-    title: "Project Managment",
+    title: "In project management, I bring a structured and efficient approach to overseeing game development projects. My skills include meticulous planning, setting clear milestones, and ensuring timely delivery within budget constraints. I excel in coordinating diverse teams, fostering an environment where creativity and productivity thrive. With a keen eye for detail, I adeptly manage resources and anticipate project needs, ensuring smooth progression from concept to completion. My ability to communicate effectively with all stakeholders, coupled with a strong problem-solving mindset, makes me adept at steering projects through complex challenges to successful outcomes.",
     description: "",
     images: [
         'images/button1.png',
@@ -167,7 +167,7 @@ const iconData = {
     ]
   },  "icon19": {
     title: "World of Warcraft: Classic",
-    description: "Description World of Warcraft: Classic",
+    description: "World of Warcraft: Classic captivates me not just as a game, but as a vibrant social universe. Its meticulous recreation of the original World of Warcraft experience resonates with a sense of nostalgia and authenticity. What truly enchants me are the social dynamics it fosters; the game necessitates cooperation, communication, and a strong sense of community, which are aspects I deeply cherish. In Classic, the slower pace of character progression and the necessity for teamwork in raids and dungeons create lasting relationships and a genuine camaraderie among players. This game is a perfect amalgamation of challenging gameplay and social interaction, reflecting the essence of MMORPGs that I find most compelling and enjoyable.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -175,7 +175,7 @@ const iconData = {
     ]
   },  "icon20": {
     title: "WoW Ascension",
-    description: "Description for WoW Ascension",
+    description: "WoW Ascension holds a special place in my gaming journey, appealing to both my creative instincts and my love for community-driven experiences. This unique, classless version of World of Warcraft allows players to customize their characters in unprecedented ways, breaking free from the traditional class boundaries. This freedom sparks my imagination, inspiring me as a game designer to think outside the box and appreciate the possibilities of game mechanics and character development. Additionally, Ascension's community-centric approach, where player choices and actions significantly influence the game world, resonates with my passion for social gaming. Engaging with fellow players in this dynamic environment not only enhances my personal gaming experience but also provides valuable insights into player interactions and community building, aspects that are central to my own design philosophy.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -191,7 +191,7 @@ const iconData = {
     ]
   },  "icon22": {
     title: "Ragnarok Online",
-    description: "Description for Ragnarok Online",
+    description: "Ragnarok Online holds a cherished spot in my gaming history, encapsulating many of my formative years. This classic MMORPG was more than just a game for me; it was a virtual world where I spent countless hours exploring, battling, and forging friendships. The game's vibrant, anime-style graphics and engaging job system captured my imagination, offering an escape into a diverse and richly detailed world. Ragnarok's focus on party-based gameplay and guild wars fostered a strong sense of community and teamwork, aspects that deeply influenced my understanding of social dynamics in gaming. This game wasn't just entertainment; it was a significant part of my youth, shaping my passion for gaming and my future career aspirations. The countless hours I invested in Ragnarok Online were not just about leveling up characters but about building lifelong skills in collaboration, strategy, and creative thinking.",
     images: [
         'images/button1.png',
         'images/button2.png',
@@ -207,7 +207,7 @@ const iconData = {
     ]
   },  "icon24": {
     title: "Habbo Hotel",
-    description: "Description for Habbo Hotel",
+    description: "Habbo Hotel stands out as a foundational pillar in my early gaming life, resonating with me even during my younger years. This virtual world was more than a game; it was a vibrant social hub where I learned the fundamentals of online interaction and community building. The simplicity of Habbo, with its pixelated rooms and customizable avatars, provided a creative outlet, allowing me to experiment with design and social dynamics. It was a place where I could freely express myself, connect with people from diverse backgrounds, and understand the nuances of digital communication. Engaging in this virtual hotel's community activities, from managing rooms to participating in events, laid the groundwork for my deep-seated interest in social gaming and digital spaces. My time in Habbo Hotel was a formative experience, nurturing my fascination with how virtual environments can foster community, creativity, and connection.",
     images: [
         'images/button1.png',
         'images/button2.png',
