@@ -81,7 +81,7 @@ const iconData = {
   },
   "icon9": {
     title: "Data Science & AI - Le Wagon",
-    description: " ",
+    description: "In my portfolio, I include my experience with the Data Science course at Le Wagon Berlin, a practical and informative step in my professional development. This course provided a solid introduction to Python programming, data analysis, and basic machine learning concepts. While the program was challenging, it offered a straightforward approach to understanding the essentials of data science. \n  Working on real-world datasets and collaborating on projects helped me gain practical skills that are useful in my work. The course didn't revolutionize my career, but it equipped me with valuable tools and a good understanding of data science fundamentals. This experience at Le Wagon Berlin has been a beneficial addition to my skillset, providing a useful foundation for my ongoing professional journey.",
     images: [
         'images/button1.png',
         'images/button2.png',
